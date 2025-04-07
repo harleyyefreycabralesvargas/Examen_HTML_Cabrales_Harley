@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "letrica";
+    src: url("../Letras/Myriad\ Pro\ SemiExtended.otf");
+}
+
+
+
+
+* { 
+    box-sizing: border-box;
+    font-family: "letrica";
+}
+/*header*/
+header{
+    max-width: 1920px;
+    min-width: 430px;
+    width: 100%;
+    display: flex;
+    background-color: #206dc5;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+} 
+.futuro{
+    align-items: center;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin: auto;
+    padding: 10px 60px;
+}
+.letra_n{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+.letra_b{
+    padding: 90px;
+}
+header nav a img{
+    display: flex;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1920px){
+
+    
+}
+/*Body*/
+body {
+    background-color: white;
+    max-width: 1920px;
+    min-width: 430px;
+    width: 100%;
+}
+.formulario{ 
+    margin: auto;
+    max-width: 500px; 
+    
+}
+.form1{
+    
+    background-color: aqua;
+}
+.form1 p{
+    text-align: center;
+    padding: 5px 50px;
+    background-color: aqua;
+}
