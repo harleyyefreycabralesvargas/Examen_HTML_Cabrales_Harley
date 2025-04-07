@@ -58,17 +58,65 @@ body {
     min-width: 430px;
     width: 100%;
 }
+.container{
+    background-color: white;
+}
 .formulario{ 
-    margin: auto;
+    position: absolute;
+    background-color: white;
+    margin-top: -900px;
+    margin-left: 90px;
     max-width: 500px; 
+    border-radius: 20px;
     
 }
 .form1{
     
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+}
+.form1 h2{
+    margin-left: 20px;
+    width: 95%;
+    padding: 20px 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 .form1 p{
+    width: 95%;
+    margin: 10px;
     text-align: center;
     padding: 5px 50px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+}
+input, select{
+    width: 95%;
+    margin: 10px;
+}
+.enviar{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    margin-left: 200px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+}
+.ingreso{ 
+    left: 1010px;
+    top: 530px;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+}
+.ingreso p{
+    margin-left: 100px;
+    top: -1000px;
+    width: 420px;
+}
+.conocer{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
 }
